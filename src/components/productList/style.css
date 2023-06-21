@@ -1,0 +1,31 @@
+.product__list {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+
+    width: 420px;
+    height: 650px;
+
+    overflow-x : scroll;
+}
+
+.proudct__list__items {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.proudct__list__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 500px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
